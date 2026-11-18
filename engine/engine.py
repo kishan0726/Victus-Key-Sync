@@ -118,7 +118,7 @@ power = load_power()
 power = True if power is None else power
 cfg_mtime, state_mtime = mtime(CONFIG_PATH), mtime(STATE_PATH)
 
-SOURCE = "combined_audio.monitor"
+SOURCE = "bluez_output.61_9D_BE_FC_F4_2B.1.monitor"
 LED = "/sys/class/leds/hp::kbd_backlight"
 RATE, HOP, WIN = 48000, 1024, 2048
 FPS = RATE / HOP
